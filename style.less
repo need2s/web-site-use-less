@@ -1,22 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.content{
+.content {
   text-align: center;
-  background: url('./assets/img/spacex.jpg') no-repeat center;
-  background-size: cover;
+  background: black;
   min-height: 100vh;
 }
 
-.m-w-1200{
+.m-w-1200 {
   max-width: 1200px;
   background: #0b0b0b;
   margin: auto;
 
 }
-header{
+
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,15 +29,69 @@ header{
   border-radius: 4%;
 }
 
-.sign-in a{
+.sign-in a {
   color: white;
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
-  &:hover{
+  &:hover {
     text-decoration: underline;
     background: white;
     transition: .8s;
     color: black;
   }
 }
+
+.img1 {
+  text-align: center;
+  background: url("./assets/img/dragon_header_image.jpg");
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  h2{
+    font-weight: 100;
+  }
+}
+
+.main-dragon{
+ background: black;
+  flex-grow: 1;
+}
+.main-dragon-title{
+  color: white;
+  font-size: 30px;
+  padding: 58px 0 15px 0;
+  border-bottom: 1px dashed white;
+  h2{
+    font-weight: 100;
+    text-align: left;
+  }
+}
+
+.main-dragon-description {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: row;
+  padding-top: 20px;
+  p{
+    max-width: 45%;
+    text-align: left;
+   padding-bottom: 20px;
+    font-size: 15px;
+  }
+}
+
+.section{
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+
